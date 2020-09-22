@@ -17,7 +17,7 @@ The demo application meant to illustrate how to integrate your application with 
 - [How To Use](#how-to-use)
 - [MyInfo Connector NodeJS](#lib)
   - [Troubleshooting](#problem)
-- [Change Logs](./CHANGELOG.md)
+- [Change Logs](./.CHANGELOG.md)
 
 <br/><br/><br/>
 
@@ -95,27 +95,18 @@ Click **RETRIEVE MYINFO** and select the test user ID from the Mock Pass.
 
 This demo application is using the [myinfo-connector-nodejs](https://www.npmjs.com/package/myinfo-connector-nodejs) library. MyInfo Connector aims to simplify consumer's integration effort by providing an easy to use Javascript library to integrate into your application.
 
-### <a name="problem"></a>Troubleshooting
 
 
+<details><summary>Change the logging level for debugging within the library.</summary>
+Edit the `myinfo-demo-app/config/config.js`, change the `DEBUG_LEVEL` value to `debug`. 
 
-
-<details>
-  <summary>Change the logging level for debugging within the library.</summary>
-  
-    Edit the `myinfo-demo-app/config/config.js`, change the `DEBUG_LEVEL` value to `debug`. 
-  
-    IMPORTANT NOTE: debug mode should never be turned on in production
-
+*IMPORTANT NOTE: debug mode should never be turned on in production*
 </details>
 
-<details>
-  <summary>OpenSSL Installation [For Windows only]</summary>
-  
-    Skip this step if you have OpenSSL installed.
+<details><summary>OpenSSL Installation [For Windows only]</summary>
+Skip this step if you have OpenSSL installed.
 
-    For windows user, you are required to install the OpenSSL library in your computer in order to use myinfo-connector-nodejs library. Please refer to the OpenSSL installation guide [here](https://public.cloud.myinfo.gov.sg/docs/OpenSSL_installation_guide.pdf). 
-
+For windows user, you are required to install the OpenSSL library in your computer in order to use myinfo-connector-nodejs library. Please refer to the OpenSSL installation guide [here](https://public.cloud.myinfo.gov.sg/docs/OpenSSL_installation_guide.pdf). 
 </details>
 
 <br/>
