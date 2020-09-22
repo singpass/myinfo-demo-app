@@ -1,11 +1,12 @@
+const express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
+const cors = require('cors');
 const crypto = require('crypto');
 const colors = require('colors');
-const cors = require('cors');
-const express = require('express');
 var MyInfoConnector = require('myinfo-connector-nodejs');
+
 const app = express();
 const port = 3001;
 const config = require('./config/config.js');
