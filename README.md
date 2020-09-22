@@ -11,7 +11,7 @@ The demo application meant to illustrate how to integrate your application with 
 
 ## Contents
 
-<img align="right" width="300" src="./images/setup.png" />
+<img align="right" width="300" src="./.images/setup.png" />
 
 - [Quick Start](#quick-start)
 - [How To Use](#how-to-use)
@@ -74,8 +74,8 @@ You should be able to access the sample application via the following URL or cli
 http://localhost:3001
 ```
 
-<!-- ![Demo Screenshot](./.images/main.png)
-![Demo Screenshot](./.images/form.png) -->
+![Demo Screenshot](./.images/main.png)
+![Demo Screenshot](./.images/form.png)
 
 
 ---
