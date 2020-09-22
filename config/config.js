@@ -22,6 +22,7 @@ let APP_CONFIG = {
 
 
 //Set following configuration for MyInfo library to call token and person API
+// IMPORTANT: DO NOT rename the JSON Keys
 let MYINFO_CONNECTOR_CONFIG = {
   'MYINFO_SIGNATURE_CERT_PUBLIC_CERT': './cert/staging-myinfo-public-cert.pem',
 

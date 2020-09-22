@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://www.ndi-api.gov.sg/library/myinfo/introduction">
-  <img width="150" src="https://www.ndi-api.gov.sg/assets/lib/myinfo/img/myinfo-logo.jpg">
+  <img src="./.images/logo.jpg">
   </a>
 </p>
 
