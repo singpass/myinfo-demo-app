@@ -19,7 +19,7 @@ The demo application meant to illustrate how to integrate your application with 
   - [Troubleshooting](#problem)
 - [Change Logs](./.CHANGELOG.md)
 
-<br/><br/><br/>
+<br/><br/>
 
 
 
