@@ -103,18 +103,18 @@ This demo application is using the [myinfo-connector-nodejs](https://www.npmjs.c
 <details>
   <summary>Change the logging level for debugging within the library.</summary>
   
-  Edit the `myinfo-demo-app/config/config.js`, change the `DEBUG_LEVEL` value to `debug`. 
+    Edit the `myinfo-demo-app/config/config.js`, change the `DEBUG_LEVEL` value to `debug`. 
   
-  <i>IMPORTANT NOTE: debug mode should never be turned on in production</i>
+    IMPORTANT NOTE: debug mode should never be turned on in production
 
 </details>
 
 <details>
   <summary>OpenSSL Installation [For Windows only]</summary>
   
-  <b>Skip this step if you have OpenSSL installed</b>
+    Skip this step if you have OpenSSL installed.
 
-  For windows user, you are required to install the OpenSSL library in your computer in order to use myinfo-connector-nodejs library. Please refer to the OpenSSL installation guide [here](https://public.cloud.myinfo.gov.sg/docs/OpenSSL_installation_guide.pdf). 
+    For windows user, you are required to install the OpenSSL library in your computer in order to use myinfo-connector-nodejs library. Please refer to the OpenSSL installation guide [here](https://public.cloud.myinfo.gov.sg/docs/OpenSSL_installation_guide.pdf). 
 
 </details>
 
