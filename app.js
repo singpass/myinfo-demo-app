@@ -8,7 +8,7 @@ const colors = require('colors');
 var MyInfoConnector = require('myinfo-connector-nodejs');
 
 const app = express();
-const port = 3001;
+const port = 3000;
 const config = require('./config/config.js');
 
 
@@ -43,9 +43,9 @@ app.get('/getEnv', function (req, res) {
       config.MYINFO_CONNECTOR_CONFIG.ENVIRONMENT = environment;
       config.MYINFO_CONNECTOR_CONFIG.TOKEN_URL = config.APP_CONFIG.MYINFO_API_TOKEN[environment];
       config.MYINFO_CONNECTOR_CONFIG.PERSON_URL = config.APP_CONFIG.MYINFO_API_PERSON[environment];
-      console.log("Payload Encryption & PKI Digital Signature:".yellow, "Disabled".grey,"(Sandbox Env)");
+      console.log("Payload Encryption & PKI Digital Signature:".yellow, "Disabled".grey, "(Sandbox Env)");
     } else {
-      console.log("Payload Encryption & PKI Digital Signature:".yellow, "Enabled".green,"(Test Env)");
+      console.log("Payload Encryption & PKI Digital Signature:".yellow, "Enabled".green, "(Test Env)");
     }
 
     if (config.APP_CONFIG.DEMO_APP_CLIENT_ID == undefined || config.APP_CONFIG.DEMO_APP_CLIENT_ID == null) {
@@ -95,7 +95,7 @@ app.post('/getPersonData', function (req, res, next) {
 
     connector.getMyInfoPersonData(authCode, state, txnNo)
       .then(personData => {
-        
+
         /* 
         P/s: Your logic to handle the person data ...
         */
